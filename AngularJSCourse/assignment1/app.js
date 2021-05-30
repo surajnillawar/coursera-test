@@ -14,7 +14,7 @@
       $scope.foodItems = $scope.foodItems.trim();
 
       if ($scope.foodItems == "") {
-        $scope.message = "Please enter data in above text box";
+        $scope.message = "Please enter data first";
       } else {
 
         var $foodItemsArray = $scope.foodItems.split(",");
